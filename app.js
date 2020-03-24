@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 const [command, key] = process.argv.slice(2);
 const { get, set, unset } = require('./lib/commands');
 const { askForPassword } = require('./lib/inputs');
